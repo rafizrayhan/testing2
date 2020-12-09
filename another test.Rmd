@@ -1,0 +1,11 @@
+```{r}
+getwd()
+d1<- read.csv("lec 4 data.csv")
+summary(d1)
+View(d1)
+```
+```{r}
+a<- aov(dep~Method,data=d1)
+a
+plot(a)
+```
