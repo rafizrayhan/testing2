@@ -9,3 +9,7 @@ a<- aov(dep~Method,data=d1)
 a
 plot(a)
 ```
+```{r}
+bartlett.test(dep~Method,data=d1)
+```
+
